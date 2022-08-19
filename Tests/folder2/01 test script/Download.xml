@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>7</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[01 test script]]></Name>
+  <FSRoot><![CDATA[Test\7\7\1]]></FSRoot>
+  <FSPath><![CDATA[Test\7\7\1]]></FSPath>
+  <QCPath><![CDATA[Subject\folder2\01 test script]]></QCPath>
+  <Owner>
+    <OwnerId>7</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[01 test script]]></Name>
+    <FSRoot><![CDATA[Test\7\7\1]]></FSRoot>
+    <FSPath><![CDATA[Test\7\7\1]]></FSPath>
+    <QCPath><![CDATA[Subject\folder2\01 test script]]></QCPath>
+    <Relation>
+      <RelatedId>1019</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Main Test Flow]]></Name>
+      <FSRoot><![CDATA[Test\7\7\1]]></FSRoot>
+      <FSPath><![CDATA[Test\7\7\1]]></FSPath>
+      <QCPath><![CDATA[Subject\folder2\01 test script]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1020</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSRoot><![CDATA[Test\7\7\1]]></FSRoot>
+      <FSPath><![CDATA[Test\7\7\1]]></FSPath>
+      <QCPath><![CDATA[Subject\folder2\01 test script]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1021</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSRoot><![CDATA[Test\7\7\1]]></FSRoot>
+      <FSPath><![CDATA[Test\7\7\1]]></FSPath>
+      <QCPath><![CDATA[Subject\folder2\01 test script]]></QCPath>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1021</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action1]]></Name>
+    <FSRoot><![CDATA[Test\7\7\1]]></FSRoot>
+    <FSPath><![CDATA[Test\7\7\1]]></FSPath>
+    <QCPath><![CDATA[Subject\folder2\01 test script]]></QCPath>
+    <Relation>
+      <RelatedId>1020</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSRoot><![CDATA[Test\7\7\1]]></FSRoot>
+      <FSPath><![CDATA[Test\7\7\1]]></FSPath>
+      <QCPath><![CDATA[Subject\folder2\01 test script]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>3</Order>
+    </Relation>
+  </Owner>
+</Owners>
